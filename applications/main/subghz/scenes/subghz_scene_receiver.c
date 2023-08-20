@@ -6,7 +6,7 @@
 #define TAG "SubGhzSceneReceiver"
 
 const NotificationSequence subghz_sequence_rx = {
-    &message_green_255,
+    &message_red_255,
 
     &message_display_backlight_on,
 
@@ -21,7 +21,7 @@ const NotificationSequence subghz_sequence_rx = {
 };
 
 const NotificationSequence subghz_sequence_rx_locked = {
-    &message_green_255,
+    &message_red_255,
 
     &message_display_backlight_on,
 
